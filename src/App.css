@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f8f9;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 375px;
+  height: 100vh;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 40px 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d2226;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #6c757d;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+button {
+  width: 100%;
+  height: 46px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.primary-btn {
+  background: #6c25ff;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.secondary-btn {
+  background: #cebafb;
+  color: #1d2226;
+}
+
+.login-btn {
+  background: #6c25ff;
+  color: white;
+  margin-top: 20px;
+}
+
+.form-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d2226;
+  margin-bottom: 10px;
+}
+
+.form-subtitle {
+  color: #6c757d;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #6c25ff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.account-header {
+  background: white;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.account-card {
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.profile-info h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #1d2226;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.profile-description {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #1d2226;
+  line-height: 1.5;
+}
